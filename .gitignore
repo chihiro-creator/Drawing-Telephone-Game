@@ -1,0 +1,25 @@
+# .NET build outputs
+bin/
+obj/
+out/
+publish/
+
+# Runtime logs / local settings (contain LAN IPs, device names, absolute paths)
+logs/
+*.log
+client_config.json
+
+# Single-file publish outputs - do not commit exes (rebuild via Releases)
+/exe化したもの/*.exe
+/exe化したもの/**/*.exe
+/exe化したもの/**/logs/
+*.exe
+
+# Visual Studio / VSCode / OS
+.vs/
+.vscode/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+desktop.ini

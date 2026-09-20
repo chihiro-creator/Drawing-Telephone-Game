@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>DrawingGame.Server</RootNamespace>
+    <AssemblyName>DrawingGame.Server</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DrawingGame.Shared\DrawingGame.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="questions.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>
